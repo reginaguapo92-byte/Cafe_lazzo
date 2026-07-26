@@ -1,0 +1,176 @@
+```html
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Lazzo</title>
+
+    <style>
+
+        body{
+            margin:0;
+            font-family: Arial, sans-serif;
+            background-color:#f5f0e6;
+            color:#3e2723;
+        }
+
+        header{
+            background-color:#4e342e;
+            padding:20px;
+            text-align:center;
+            color:white;
+        }
+
+        nav{
+            background-color:#6d4c41;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:15px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:#ffd54f;
+        }
+
+        .hero{
+            background-image:url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085');
+            background-size:cover;
+            background-position:center;
+            height:400px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            color:white;
+            text-shadow:2px 2px 5px black;
+            font-size:40px;
+        }
+
+        .contenido{
+            padding:40px;
+            text-align:center;
+        }
+
+        .menu{
+            display:flex;
+            justify-content:center;
+            gap:40px;
+            flex-wrap:wrap;
+        }
+
+        .card{
+            background:white;
+            width:250px;
+            padding:20px;
+            border-radius:15px;
+            box-shadow:0 0 10px rgba(0,0,0,0.2);
+        }
+
+        .card img{
+            width:100%;
+            border-radius:10px;
+        }
+
+        footer{
+            background:#4e342e;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:40px;
+        }
+
+        button{
+            background:#6d4c41;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            border-radius:10px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#3e2723;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Café Lazzo</h1>
+        <p>El mejor café de la ciudad</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="menu.html">Menú</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <section class="hero">
+        Bienvenido a Café Lazzo
+    </section>
+
+    <section class="contenido">
+        <h2>Nuestros Productos</h2>
+
+        <div class="menu">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93">
+                <h3>Espresso</h3>
+
+                <ul>
+                    <li>Café intenso</li>
+                    <li>100% natural</li>
+                    <li>Gran aroma</li>
+                </ul>
+
+                <button>Comprar</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1497636577773-f1231844b336">
+                <h3>Capuccino</h3>
+
+                <ul>
+                    <li>Espuma cremosa</li>
+                    <li>Chocolate encima</li>
+                    <li>Sabor delicioso</li>
+                </ul>
+
+                <button>Comprar</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348">
+                <h3>Postres</h3>
+
+                <ul>
+                    <li>Cheesecake</li>
+                    <li>Brownies</li>
+                    <li>Croissants</li>
+                </ul>
+
+                <button>Ver más</button>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Café Lazzo - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
+```
