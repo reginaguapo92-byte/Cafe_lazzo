@@ -1,0 +1,198 @@
+<!-- menu.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú - Café Lazzo</title>
+
+    <style>
+
+        body{
+            margin:0;
+            font-family: Arial, sans-serif;
+            background-color:#f5f0e6;
+            color:#3e2723;
+        }
+
+        header{
+            background-color:#4e342e;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+
+        nav{
+            background-color:#6d4c41;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:15px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:#ffd54f;
+        }
+
+        h2{
+            text-align:center;
+            margin-top:40px;
+        }
+
+        .contenedor{
+            display:flex;
+            justify-content:center;
+            flex-wrap:wrap;
+            gap:30px;
+            padding:40px;
+        }
+
+        .card{
+            background:white;
+            width:280px;
+            border-radius:15px;
+            overflow:hidden;
+            box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+        }
+
+        .card img{
+            width:100%;
+            height:200px;
+            object-fit:cover;
+        }
+
+        .card-content{
+            padding:20px;
+        }
+
+        ul{
+            text-align:left;
+        }
+
+        button{
+            background:#6d4c41;
+            color:white;
+            border:none;
+            padding:10px 15px;
+            border-radius:10px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#3e2723;
+        }
+
+        footer{
+            background:#4e342e;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:40px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Menú Café Lazzo</h1>
+        <p>Disfruta nuestros sabores especiales</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="menu.html">Menú</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <h2>Nuestro Menú</h2>
+
+    <div class="contenedor">
+
+        <!-- Café Espresso -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93">
+
+            <div class="card-content">
+                <h3>Espresso</h3>
+
+                <ul>
+                    <li>Café fuerte</li>
+                    <li>Aroma intenso</li>
+                    <li>Granos premium</li>
+                    <li>$45 MXN</li>
+                </ul>
+
+                <button>Ordenar</button>
+            </div>
+        </div>
+
+        <!-- Capuccino -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1497636577773-f1231844b336">
+
+            <div class="card-content">
+                <h3>Capuccino</h3>
+
+                <ul>
+                    <li>Espuma cremosa</li>
+                    <li>Chocolate encima</li>
+                    <li>Leche caliente</li>
+                    <li>$55 MXN</li>
+                </ul>
+
+                <button>Ordenar</button>
+            </div>
+        </div>
+
+        <!-- Latte -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348">
+
+            <div class="card-content">
+                <h3>Latte</h3>
+
+                <ul>
+                    <li>Sabor suave</li>
+                    <li>Arte latte</li>
+                    <li>Leche cremosa</li>
+                    <li>$60 MXN</li>
+                </ul>
+
+                <button>Ordenar</button>
+            </div>
+        </div>
+
+        <!-- Postres -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b">
+
+            <div class="card-content">
+                <h3>Postres</h3>
+
+                <ul>
+                    <li>Cheesecake</li>
+                    <li>Brownies</li>
+                    <li>Croissants</li>
+                    <li>$40 MXN</li>
+                </ul>
+
+                <button>Comprar</button>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Café Lazzo - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>

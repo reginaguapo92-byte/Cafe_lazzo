@@ -1,0 +1,184 @@
+<!-- contacto.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Café Lazzo</title>
+
+    <style>
+
+        body{
+            margin:0;
+            font-family: Arial, sans-serif;
+            background-color:#f5f0e6;
+            color:#3e2723;
+        }
+
+        header{
+            background-color:#4e342e;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+
+        nav{
+            background-color:#6d4c41;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:15px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:#ffd54f;
+        }
+
+        .banner{
+            background-image:url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085');
+            background-size:cover;
+            background-position:center;
+            height:300px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            color:white;
+            font-size:45px;
+            text-shadow:2px 2px 5px black;
+        }
+
+        .contenedor{
+            width:80%;
+            margin:auto;
+            padding:40px;
+            display:flex;
+            flex-wrap:wrap;
+            gap:40px;
+        }
+
+        .info, .formulario{
+            flex:1;
+            background:white;
+            padding:30px;
+            border-radius:15px;
+            box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+        }
+
+        h2{
+            color:#4e342e;
+        }
+
+        ul{
+            line-height:2;
+        }
+
+        input, textarea{
+            width:100%;
+            padding:12px;
+            margin-top:10px;
+            margin-bottom:20px;
+            border-radius:10px;
+            border:1px solid #ccc;
+        }
+
+        button{
+            background:#6d4c41;
+            color:white;
+            border:none;
+            padding:12px 20px;
+            border-radius:10px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#3e2723;
+        }
+
+        footer{
+            background:#4e342e;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:40px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Café Lazzo</h1>
+        <p>Contáctanos</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="menu.html">Menú</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <section class="banner">
+        Ponte en contacto
+    </section>
+
+    <div class="contenedor">
+
+        <!-- Información -->
+        <div class="info">
+
+            <h2>Información</h2>
+
+            <ul>
+                <li><strong>Dirección:</strong> Calle del Café #123, Ciudad Celaya</li>
+                <li><strong>Teléfono:</strong> +52 461 123 4567</li>
+                <li><strong>Email:</strong> cafe_lazzo@gmail.com</li>
+            </ul>
+
+            <h2>Redes Sociales</h2>
+
+            <ul>
+                <li>Facebook: Café lazzo Oficial</li>
+                <li>Instagram: @cafe_lazzo</li>
+                <li>TikTok: @cafe_lazzo_oficial</li>
+                <li>X (Twitter): @CafeLazzoMX</li>
+            </ul>
+
+        </div>
+
+        <!-- Formulario -->
+        <div class="formulario">
+
+            <h2>Envíanos un mensaje</h2>
+
+            <form>
+
+                <label>Nombre:</label>
+                <input type="text" placeholder="Escribe tu nombre">
+
+                <label>Correo:</label>
+                <input type="email" placeholder="Escribe tu correo">
+
+                <label>Mensaje:</label>
+                <textarea rows="5" placeholder="Escribe tu mensaje"></textarea>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Café Lazzo - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
